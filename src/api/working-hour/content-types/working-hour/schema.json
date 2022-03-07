@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "working_hours",
+  "info": {
+    "singularName": "working-hour",
+    "pluralName": "working-hours",
+    "displayName": "WorkingHours",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MemberId": {
+      "type": "string",
+      "required": true
+    },
+    "Date": {
+      "type": "string",
+      "required": true
+    },
+    "Hours": {
+      "type": "integer"
+    },
+    "UID": {
+      "type": "string"
+    }
+  }
+}

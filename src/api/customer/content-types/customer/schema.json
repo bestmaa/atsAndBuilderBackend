@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "singularName": "customer",
+    "pluralName": "customers",
+    "displayName": "Customer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CustomerName": {
+      "type": "string"
+    },
+    "ParentCustomer": {
+      "type": "string"
+    },
+    "AccountManager": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "EmailId": {
+      "type": "string"
+    },
+    "Telephone1": {
+      "type": "string"
+    },
+    "Telephone2": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "WebURL": {
+      "type": "string"
+    },
+    "JobSector": {
+      "type": "string"
+    },
+    "Segment": {
+      "type": "string"
+    },
+    "Skill": {
+      "type": "string"
+    },
+    "InternalCustomerCode": {
+      "type": "string"
+    },
+    "InternalInfo": {
+      "type": "string"
+    },
+    "CustomerCode": {
+      "type": "string"
+    },
+    "GuaranteePeriod": {
+      "type": "string"
+    },
+    "PayoutPercentage": {
+      "type": "string"
+    },
+    "PayoutTerms": {
+      "type": "string"
+    },
+    "CustomerContact": {
+      "type": "string"
+    },
+    "Jobs": {
+      "type": "string"
+    }
+  }
+}

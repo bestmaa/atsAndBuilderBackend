@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "holidays",
+  "info": {
+    "singularName": "holiday",
+    "pluralName": "holidays",
+    "displayName": "Holiday",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HolidayName": {
+      "type": "string",
+      "required": true
+    },
+    "HolidayDate": {
+      "type": "biginteger"
+    }
+  }
+}
